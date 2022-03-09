@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#7EA3A8"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logoo_round" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter first number" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter first number"
+        android:textSize="20sp"
+        android:inputType="number"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter second number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter second number"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Tvresult"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="sum of two number" />
+
+    <TextView
+        android:id="@+id/Tvresult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sub "
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/Tvresult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/Tvresult3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division "
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
